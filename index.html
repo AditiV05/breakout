@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breakout Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Breakout Game</h1>
+
+    <div class="score-container">
+      <p>Score: <span id="score">0</span></p>
+      <button id="restart-btn">Restart</button>
+    </div>
+
+    <div class="game-container">
+      <div id="game-board"></div>
+    </div>
+
+    <div class="modal" id="game-over-modal">
+      <div class="modal-content">
+        <h2 id="modal-message">Game Over!</h2>
+        <p>Your final score: <span id="final-score">0</span></p>
+        <button id="play-again-btn">Play Again</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
